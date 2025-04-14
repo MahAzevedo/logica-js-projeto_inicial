@@ -71,17 +71,27 @@
 
 
 
-let chute = 2;
-let numeroSecretoo = 2;
+// let chute = 2;
+// let numeroSecretoo = 2;
 
-if(chute == numeroSecretoo) {
-    console.log('Vc acertou mesmo!')
-} else {    
-    alert('Vc acertou, conseguiu de novo!!')
+// if(chute == numeroSecretoo) {
+//     console.log('Vc acertou mesmo!')
+// } else {    
+//     alert('Vc acertou, conseguiu de novo!!')
+// }
+
+
+
+
+alert('Boas vindas ao jogo do número secreto');
+let numeroSecreto = 8;
+console.log(numeroSecreto);
+let chute = prompt('Escolha um número entre 1 e 10');
+
+// se chute for igual ao número secreto
+
+if(numeroSecreto == chute) {
+    alert(`Você acertou! O número secreto é ${numeroSecreto}`)
+} else {
+    alert('Você errou!')
 }
-
-
-
-
-
-
