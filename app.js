@@ -83,15 +83,38 @@
 
 
 
-alert('Boas vindas ao jogo do número secreto');
-let numeroSecreto = 8;
-console.log(numeroSecreto);
-let chute = prompt('Escolha um número entre 1 e 10');
+// alert('Boas vindas ao jogo do número secreto');
+// let numeroSecreto = 8;
+// console.log(numeroSecreto);
+// let chute = prompt('Escolha um número entre 1 e 10');
 
 // se chute for igual ao número secreto
 
-if(numeroSecreto == chute) {
-    alert(`Você acertou! O número secreto é ${numeroSecreto}`)
+// if(numeroSecreto == chute) {
+//     alert(`Você acertou! O número secreto é ${numeroSecreto}`)
+// } else {
+//     alert('Você errou!')
+// }
+
+
+
+// alert('Usuário, qual é o dia da semana?')
+// prompt('É Sábado ou Domingo?');
+
+// let Sabado = 'Sábado';
+// let Domingo = 'Domingo'
+// if (Sabado == Domingo) {
+//     alert("Bom fim de semana!");
+// }else{
+//     alert("Boa semana!")
+// };
+
+diaDaSemana = prompt('Usuário, qual é o dia da semana?')
+
+if (diaDaSemana == 'Sábado') {
+    "Bom fim de semana!"
+} else if (diaDaSemana == 'Domingo') {
+    diaDaSemana == 'Domingo'
 } else {
-    alert('Você errou!')
+    "Boa semana!"
 }
