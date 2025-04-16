@@ -136,6 +136,63 @@
 
 // 5 - Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
-// prompt("alerta de boas-vindas")
-let nome = prompt('qual seu nome?')
-alert(`boas-vindas ${nome}`)
+// let nome = prompt('qual seu nome?')
+// alert(`boas-vindas ${nome}`)
+
+// ************************************
+
+// Novas condições:  while
+// let chute = prompt('Escolha um número entre 1 e 10');
+// let numeroSecreto = 7;
+// let tentativas = 1;
+
+// while (chute != numeroSecreto) {
+//     chute = prompt('Escolha um número entre 1 e 10');
+//         if(chute == numeroSecreto) {
+//         alert(`Você acertou! O número secreto é ${numeroSecreto} com ${tentativas} tentativas`)
+//     } else {
+//         if(chute > numeroSecreto) {
+//             alert(`O número secreto é menor que ${chute}`);
+//         } else {
+//             alert(`O número secreto é maior que ${chute}`);
+//         }
+//         tentativas ++;
+//     }
+// }
+
+// Tentativas ++
+
+//********** */
+/*
+ Exemplo: Questão 5: Contador 1
+let contador = 1;
+
+while (contador < 4) {
+  console.log('Executando a iteração ' + contador);
+  contador = contador + 1;
+}
+
+  while (contador < 4){ } começa o loop while. Ele continuará repetindo o bloco de código entre as chaves { } enquanto a condição contador < 4 for verdadeira.  
+Essa condição significa que o loop continuará enquanto o valor da variável contador for menor que 4.
+  O resultado final será a impressão das mensagens "Executando a iteração 1", "Executando a iteração 2" e "Executando a iteração 3" no console.
+ O loop foi executado três vezes, e o valor final da variável contador é 4. Na quarta iteração, o valor de contador é 4. Neste momento, a condição contador < 4 se torna falsa, pois 4 não é menor que 4. O loop não executa mais o código dentro das chaves e termina.
+*/
+
+/* Questão 6:  Loop infinito
+
+
+let qtdNumeros = prompt('Digite a quantidade de números para o cálculo da média:');
+let soma = 0;
+let contador = qtdNumeros;
+
+while(contador > 0){
+    let numero = parseInt(prompt('Digite o numero:'));
+    soma += numero;
+}
+
+let media = soma / qtdNumeros;
+contador --;
+
+console.log(media);
+
+*/
